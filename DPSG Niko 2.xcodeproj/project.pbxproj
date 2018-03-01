@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E133C9DC2045749500FB09BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E133C9DB2045749500FB09BE /* AppDelegate.swift */; };
+		E133C9DE2045749600FB09BE /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E133C9DD2045749600FB09BE /* FirstViewController.swift */; };
+		E133C9E02045749600FB09BE /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E133C9DF2045749600FB09BE /* SecondViewController.swift */; };
+		E133C9E32045749600FB09BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E133C9E12045749600FB09BE /* Main.storyboard */; };
+		E133C9E52045749600FB09BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E133C9E42045749600FB09BE /* Assets.xcassets */; };
+		E133C9E82045749600FB09BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E133C9E62045749600FB09BE /* LaunchScreen.storyboard */; };
+		E133C9F2204579D900FB09BE /* ApiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E133C9F1204579D900FB09BE /* ApiController.swift */; };
+		E133C9F520458EA100FB09BE /* ChildModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E133C9F420458EA100FB09BE /* ChildModel.swift */; };
+		E133C9F720458ECC00FB09BE /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E133C9F620458ECC00FB09BE /* UserModel.swift */; };
+		E133C9F92045927A00FB09BE /* SigninModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E133C9F82045927A00FB09BE /* SigninModel.swift */; };
+		E133C9FB2045929500FB09BE /* EventModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E133C9FA2045929500FB09BE /* EventModel.swift */; };
+		E133CA212045F36B00FB09BE /* ApiErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E133CA202045F36B00FB09BE /* ApiErrorModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E133C9D82045749500FB09BE /* DPSG Niko 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DPSG Niko 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E133C9DB2045749500FB09BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E133C9DD2045749600FB09BE /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		E133C9DF2045749600FB09BE /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		E133C9E22045749600FB09BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E133C9E42045749600FB09BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E133C9E72045749600FB09BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E133C9E92045749600FB09BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E133C9F1204579D900FB09BE /* ApiController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiController.swift; sourceTree = "<group>"; };
+		E133C9F420458EA100FB09BE /* ChildModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildModel.swift; sourceTree = "<group>"; };
+		E133C9F620458ECC00FB09BE /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		E133C9F82045927A00FB09BE /* SigninModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninModel.swift; sourceTree = "<group>"; };
+		E133C9FA2045929500FB09BE /* EventModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventModel.swift; sourceTree = "<group>"; };
+		E133CA202045F36B00FB09BE /* ApiErrorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiErrorModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E133C9D52045749500FB09BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E133C9CF2045749500FB09BE = {
+			isa = PBXGroup;
+			children = (
+				E133C9DA2045749500FB09BE /* DPSG Niko 2 */,
+				E133C9D92045749500FB09BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E133C9D92045749500FB09BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E133C9D82045749500FB09BE /* DPSG Niko 2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E133C9DA2045749500FB09BE /* DPSG Niko 2 */ = {
+			isa = PBXGroup;
+			children = (
+				E133C9F320458E8D00FB09BE /* Models */,
+				E133C9DB2045749500FB09BE /* AppDelegate.swift */,
+				E133C9F1204579D900FB09BE /* ApiController.swift */,
+				E133C9DD2045749600FB09BE /* FirstViewController.swift */,
+				E133C9DF2045749600FB09BE /* SecondViewController.swift */,
+				E133C9E12045749600FB09BE /* Main.storyboard */,
+				E133C9E42045749600FB09BE /* Assets.xcassets */,
+				E133C9E62045749600FB09BE /* LaunchScreen.storyboard */,
+				E133C9E92045749600FB09BE /* Info.plist */,
+			);
+			path = "DPSG Niko 2";
+			sourceTree = "<group>";
+		};
+		E133C9F320458E8D00FB09BE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E133C9F420458EA100FB09BE /* ChildModel.swift */,
+				E133C9F620458ECC00FB09BE /* UserModel.swift */,
+				E133C9F82045927A00FB09BE /* SigninModel.swift */,
+				E133C9FA2045929500FB09BE /* EventModel.swift */,
+				E133CA202045F36B00FB09BE /* ApiErrorModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E133C9D72045749500FB09BE /* DPSG Niko 2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E133C9EC2045749600FB09BE /* Build configuration list for PBXNativeTarget "DPSG Niko 2" */;
+			buildPhases = (
+				E133C9D42045749500FB09BE /* Sources */,
+				E133C9D52045749500FB09BE /* Frameworks */,
+				E133C9D62045749500FB09BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DPSG Niko 2";
+			productName = "DPSG Niko 2";
+			productReference = E133C9D82045749500FB09BE /* DPSG Niko 2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E133C9D02045749500FB09BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Christian Natrop";
+				TargetAttributes = {
+					E133C9D72045749500FB09BE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E133C9D32045749500FB09BE /* Build configuration list for PBXProject "DPSG Niko 2" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E133C9CF2045749500FB09BE;
+			productRefGroup = E133C9D92045749500FB09BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E133C9D72045749500FB09BE /* DPSG Niko 2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E133C9D62045749500FB09BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E133C9E82045749600FB09BE /* LaunchScreen.storyboard in Resources */,
+				E133C9E52045749600FB09BE /* Assets.xcassets in Resources */,
+				E133C9E32045749600FB09BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E133C9D42045749500FB09BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E133C9F92045927A00FB09BE /* SigninModel.swift in Sources */,
+				E133C9F2204579D900FB09BE /* ApiController.swift in Sources */,
+				E133C9E02045749600FB09BE /* SecondViewController.swift in Sources */,
+				E133C9DC2045749500FB09BE /* AppDelegate.swift in Sources */,
+				E133CA212045F36B00FB09BE /* ApiErrorModel.swift in Sources */,
+				E133C9F520458EA100FB09BE /* ChildModel.swift in Sources */,
+				E133C9F720458ECC00FB09BE /* UserModel.swift in Sources */,
+				E133C9FB2045929500FB09BE /* EventModel.swift in Sources */,
+				E133C9DE2045749600FB09BE /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E133C9E12045749600FB09BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E133C9E22045749600FB09BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E133C9E62045749600FB09BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E133C9E72045749600FB09BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E133C9EA2045749600FB09BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E133C9EB2045749600FB09BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E133C9ED2045749600FB09BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JT5WE8A662;
+				INFOPLIST_FILE = "DPSG Niko 2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DPSG-St.-Nikolaus.DPSG-Niko-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E133C9EE2045749600FB09BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JT5WE8A662;
+				INFOPLIST_FILE = "DPSG Niko 2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DPSG-St.-Nikolaus.DPSG-Niko-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E133C9D32045749500FB09BE /* Build configuration list for PBXProject "DPSG Niko 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E133C9EA2045749600FB09BE /* Debug */,
+				E133C9EB2045749600FB09BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E133C9EC2045749600FB09BE /* Build configuration list for PBXNativeTarget "DPSG Niko 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E133C9ED2045749600FB09BE /* Debug */,
+				E133C9EE2045749600FB09BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E133C9D02045749500FB09BE /* Project object */;
+}
